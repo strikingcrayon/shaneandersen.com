@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #121212; /* Dark background color */
+    color: #FFF; /* Light font color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #00DD55; /* Major color elements */
+}
+
+main {
+    padding: 20px;
+}
+
+.booking-btn {
+    display: inline-block;
+    background-color: #00DD55; /* Major color elements */
+    color: #121212; /* Dark font color for contrast */
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.booking-btn:hover {
+    background-color: #02C14A; /* Slightly darker green for hover effect */
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* Center icons */
+    align-items: center;
+    padding: 20px 0;
+    background-color: #333;
+    flex-wrap: wrap;
+}
+
+
+.icon {
+    margin: 10px;
+}
+
+.icon img {
+    width: auto; /* Adjust width automatically */
+    height: auto; /* Adjust height automatically */
+    max-width: 145px; /* Maximum width */
+    max-height: 250px; /* Maximum height */
+    margin: 5px; /* Reduced margin for narrow spacing */
+    transition: transform 0.3s ease;
+}
+
+.icon img:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: #DE0BB8; /* Color for links */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #BE09A8; /* Slightly darker shade for hover */
+}
+
+hr {
+    border-color: #00DD55; /* Major color elements for line breaks */
+    border-width: 2px;
+    margin: 20px 0;
+}
+
+/* Minor color elements/accents */
+button, input[type="submit"], input[type="reset"], input[type="button"] {
+    background-color: #DE5088;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+    background-color: #CE4878; /* Slightly darker shade for hover */
+}
