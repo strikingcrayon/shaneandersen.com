@@ -16,12 +16,7 @@ main {
     padding: 20px;
 }
 
-hr {
-    border: none;
-    height: 2px;
-    background-color: #00DD55; /* Green color, adjust as needed */
-    margin: 20px 0;
-}
+
 
 .booking-btn {
     display: inline-block;
@@ -80,6 +75,38 @@ hr {
     margin: 20px 0;
 }
 
+.tooltip abbr {
+    text-decoration: none; /* Removes default underline of abbr */
+    border-bottom: 1px dashed #00DD55; /* Dashed underline for indication */
+    cursor: help; /* Cursor change for better UX */
+}
+
+
+.calendar-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+.caption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #00DD55; /* Green border color */
+    text-align: center;
+    padding: 5px;
+}
+
+
 /* Minor color elements/accents */
 button, input[type="submit"], input[type="reset"], input[type="button"] {
     background-color: #DE5088;
@@ -94,3 +121,16 @@ button, input[type="submit"], input[type="reset"], input[type="button"] {
 button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
     background-color: #CE4878; /* Slightly darker shade for hover */
 }
+
+.mobile-only-explanation {
+    display: none; /* Hide by default */
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-only-explanation {
+        display: block; /* Show only on small screens */
+    }
+}
+
+
+
