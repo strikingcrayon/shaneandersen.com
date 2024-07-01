@@ -1,12 +1,14 @@
-<a href="https://shaneandersen.ca" class="icon" title="ShaneAndersen.ca">
-<img src="CanadaStrike250.png" alt="ShaneAndersen.ca Icon">	</a>
+	<a href="index.html" class="icon" title="Back to Home">
+	<img src="VikingStrike250.png" alt="Return to Homepage">
 
-<a href="https://shaneandersen.net" class="icon" title="ShaneAndersen.net">
-<img src="CyberVikingStrike250.png" alt="ShaneAndersen.net Icon">	</a>
+	<a href="https://twitter.com/StrikingCrayon" class="icon" title="Public Forum">
+	<img src="XStrike250.png" alt="Twitter Icon">	</a>
 
-<a href="https://discord.gg/twGT3HxfHD" class="icon" title="Semi-Private Forum">
-<img src="DiscordStrike250.png" alt="Discord Icon">	</a>
+	<a href="https://discord.gg/twGT3HxfHD" class="icon" title="Semi-Private Forum">
+	<img src="DiscordStrike250.png" alt="Discord Icon">	</a>
 
-<a href="https://twitter.com/StrikingCrayon" class="icon" title="Public Forum">
-<img src="XStrike250.png" alt="Twitter Icon">	</a>
+	<a href="https://fuckfinance.ca" class="icon" title="FuckFinance.ca">
+	<img src="MoneyPriestStrike250.png" alt="FuckFinance.ca Icon">	</a>
 
+	<a href="https://shaneandersen.net" class="icon" title="ShaneAndersen.net">
+	<img src="CyberVikingStrike250.png" alt="ShaneAndersen.net Icon">	</a>
