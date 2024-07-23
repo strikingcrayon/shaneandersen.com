@@ -17,14 +17,6 @@ main {
 }
 
 
-ul {
-  list-style-position: inside;
-}
-.list-container {
-  text-align: center;
-}
-
-
 .booking-btn {
     display: inline-block;
     background-color: #00DD55; /* Major color elements */
